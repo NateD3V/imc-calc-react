@@ -6,11 +6,11 @@
   "homepage": "https://NateD3V.github.io/imc-calc-react",
   "scripts": {
     "predeploy":"npm run build",
-    "deploy": "gh-pages",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "vite preview"
     
   },
   "dependencies": {
